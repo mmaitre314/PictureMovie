@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="PictureMovie.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PictureMovie"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Select pictures" HorizontalAlignment="Right" VerticalAlignment="Center" Click="Button_Click" />
+        <TextBlock Name="TextLog" Text="Log" HorizontalAlignment="Left" VerticalAlignment="Top" />
+    </Grid>
+</Page>
